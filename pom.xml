@@ -25,12 +25,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
-
-  <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-      <plugins>
-        <dependency>
+	<dependency>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-compiler-plugin</artifactId>
   <version>3.8.1</version>
@@ -42,7 +37,7 @@
   <version>3.0.0-M5</version>
   <type>maven-plugin</type>
 </dependency>
-      </plugins>
-    </pluginManagement>
-  </build>
+  </dependencies>
+
+  
 </project>
